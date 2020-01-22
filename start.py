@@ -25,7 +25,7 @@ class app:
         end = Style('[G#99W#]C# Exit')
         end = end.Square(padding_x=17)
         text = Style(Intro,title,tools,end).Center
-        Animation.SlowLine(text)
+        Animation.SlowLine(text,time=0.0001)
 
     def StyleText(self):
         color = self.RandColor()
@@ -85,7 +85,7 @@ class app:
         end = Style('python ')
         end = end.Square(padding_x=18)
         text = Style(Intro,title,end).Center
-        Animation.SlowLine(text)
+        Animation.SlowLine(text,time=0.0001)
         Style_Text = self.StyleText()
         file = input(Text('G#[W#*G#] file :W# '))
         print ('')
@@ -102,7 +102,7 @@ class app:
         Style_Text = Style_Text.replace('\033[0;37m','\\033[0;37m')
         Style_Text = Style_Text.replace('\n','\\n')
         with open('SERVICES/'+file,'w') as f:
-            f.write(f"#!/usr/bin/python\n# - * - coding: utf-8 - * -\ndef Style():\n\tfrom V7xStyle import Animation\n\ttext = '''{Style_Text}'''\n\tAnimation.SlowLine(text)\nStyle()")
+            f.write(f"#!/usr/bin/python\n# - * - coding: utf-8 - * -\ndef Style():\n\tfrom V7xStyle import Animation\n\ttext = '''{Style_Text}'''\n\tAnimation.SlowLine(text,time=0.0001)\nStyle()")
 
     def bash(self):
         os.system('clear')
@@ -113,7 +113,7 @@ class app:
         end = Style(' bash  ')
         end = end.Square(padding_x=18)
         text = Style(Intro,title,end).Center
-        Animation.SlowLine(text)
+        Animation.SlowLine(text,time=0.0001)
         Style_Text = self.StyleText()
         file = input(Text('G#[W#*G#] file :W# '))
         print ('')
@@ -132,7 +132,7 @@ class app:
         Style_Text = Style_Text.replace('"','\\"')
         with open('SERVICES/'+file,'w') as f:
             for i in Style_Text.split('\n'):
-                f.write(f'echo -e "{i} "\nsleep 0.1\n')
+                f.write(f'echo -e "{i} "\nsleep 0.01\n')
 
 
 if __name__ == '__main__':
