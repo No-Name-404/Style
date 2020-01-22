@@ -3,3 +3,6 @@
 ___
 ## cols?
 ![PicsArt_01-22-05 13 07](https://user-images.githubusercontent.com/56244233/72911523-85c68980-3d3a-11ea-809b-62d1eb9fae13.png)
+___
+## padding?
+![PicsArt_01-22-08 00 19](https://user-images.githubusercontent.com/56244233/72924960-296f6400-3d52-11ea-8700-d4fbd25f9a09.png)
