@@ -6,3 +6,6 @@ ___
 ___
 ## padding?
 ![PicsArt_01-22-08 00 19](https://user-images.githubusercontent.com/56244233/72924960-296f6400-3d52-11ea-8700-d4fbd25f9a09.png)
+___
+## spacing?
+![PicsArt_02-09-07 56 23](https://user-images.githubusercontent.com/56244233/74108052-67ec8780-4b76-11ea-8d8e-aca4c02e115b.png)
